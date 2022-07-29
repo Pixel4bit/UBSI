@@ -25,9 +25,6 @@ a:hover, button:hover {
 .div-tengah {
     text-align: center;
     padding: 20px;
-    border: 2px solid red;
-    min-width: min-content;
-    background-color: lavender;
 
 }
 
@@ -35,6 +32,4 @@ a:hover, button:hover {
     margin-top: 20px;
     padding: 20px;
     text-align: center;
-    border: 2px solid red;
-    background-color: lavender
 }
