@@ -110,3 +110,17 @@ background-color: blueviolet;
     }
     
 }
+
+@media screen and (max-width: 457px) {
+    .body-background-creeper {
+        background-image: url('minecraft-mobile.jpg');
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 457px) {
+    .body-background-tnt {
+        background-image: url('minecraft-mobile-1.jpg');
+        max-width: 100%;
+    }
+}
