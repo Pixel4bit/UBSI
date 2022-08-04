@@ -6,7 +6,7 @@
     border-radius: 50px;
     padding: 12px 20px;
     margin-top: 10px;
-    position: relative;
+    width: 250px;
 }
 
 .a1 {
@@ -60,6 +60,7 @@ background-color: blueviolet;
     padding: 12px 20px;
     margin-top: 10px;
     position: relative;
+    width: 125px;
 }
 
 .a2 {
@@ -79,10 +80,29 @@ background-color: blueviolet;
     background-image: url('minecraft-4k-4.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100%;
 }
 
 .body-background-tnt {
     background-image: url('minecraft-tnt.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100%;
+}
+
+@media screen and (max-width: 851px) {
+    .a1 {
+        float: left;
+        margin-left: 25%;
+    }
+}
+
+@media screen and (max-width: 852px) {
+    .tombol-back, .a2 {
+        float: left;
+        margin-top: 10px;
+        margin-left: 25%;
+        text-align: center;
+    }
+    
 }
